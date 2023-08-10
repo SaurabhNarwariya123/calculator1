@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<title>calculator></title>
+<link rel="stylesheet" href="style2.css"/>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Resume</li>
+        <li>Portfolio</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <marquee direction="right" behavior="alternate"  style="font-size: 30px;">  
+      Madhav Institute of Technology & Science (MITS)  
+      </marquee>
+          <div class = " calculater">
+         <div class="formstyle">
+           <form name="forms">
+           <input type="text" name="Ans" id="answerstyle"><br><br>
+  
+        <input type="button" value=" 1 " onclick="forms.Ans.value += '1' ">
+        <input type="button" value=" 2 " onclick="forms.Ans.value += '2' ">
+        <input type="button" value=" 3 " onclick="forms.Ans.value += '3' ">
+        <br><br>
+       <input type="button" value =" 4 " onclick="forms.Ans.value += '4' ">
+       <input type="button" value =" 5 " onclick="forms.Ans.value += '5' ">
+       <input type="button" value =" 6 " onclick="forms.Ans.value += '6' ">
+       <br><br>
+       <input type="button" value =" 7 " onclick="forms.Ans.value += '7' ">
+       <input type="button" value =" 8 " onclick="forms.Ans.value += '8' ">
+       <input type="button" value =" 9 " onclick="forms.Ans.value += '9' ">
+       <br><br>
+       <input type="button" value=" + " onclick="forms.Ans.value += '+' ">
+       <input type="button" value =" - " onclick="forms.Ans.value += '-' ">
+       <input type="button" value =" * " onclick="forms.Ans.value += '*' ">
+       <br><br>
+       <input type="button" value =" / "  onclick="forms.Ans.value += '/' ">
+       <input type="button" value =" 0 "  onclick="forms.Ans.value += '0' ">
+       <input type="button" value =" 00 "  onclick="forms.Ans.value += '00' ">
+       <br><br>
+       <input type="button" value =" Ac " onclick="forms.Ans.value = ' ' " >
+       <input type="button" value="DEL" onclick="forms.Ans.value = forms.Ans.value.substr(0,forms.Ans.value.length-1)">
+       <input type="button" value =" = "  onclick="forms.Ans.value = eval(forms.Ans.value)">
+       <br>
+
+       </form>
+        </div>
+        </div>
+   </div>
+  
+</body>
+</html>

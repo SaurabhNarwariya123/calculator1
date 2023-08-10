@@ -1,0 +1,88 @@
+
+     *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+            border: 5px solid black;
+        }
+        nav {
+            background-color: #444;
+            padding: 15px;
+            color: white;
+            font-weight: 800px;
+            min-height: 80px;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        
+        nav ul li {
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 30px;
+        }
+        
+        nav ul li:hover {
+            color: orange;
+            cursor: pointer;
+        }
+        
+        
+        .box{
+            height: 20px;
+           /* background-color: blue;
+            border: 3px solid yellow;*/
+            border-radius: 10px;
+            margin: 10px;
+            display: flex;
+            position: relative;
+        }
+         
+        
+       
+  .calculater{
+     display: flex;
+     justify-content: center;
+     text-align: left;
+  }      
+.formstyle{
+         width: 340px;
+         height:360px;
+         margin-top: 100px;
+         margin-left: 200px;
+         border:2px solid black;
+         background-color:#FAFAD2;
+         border: 2px solid red;
+         border-radius: 15px;
+         border-bottom: 6px solid blue;
+         border-top: 6px solid blue;
+         border-left-style: dotted;
+         border-right-style: dotted;
+         border-width: 4px;
+         padding-top: 20px;
+         padding-right: 25px;
+         padding-bottom: 20px;
+         padding-left: 25px;
+        
+        
+}
+input{
+     width:90px;
+     height:30px;
+     background-color:#FF4500;
+     color:#FFFF00;
+     border-radius: 18px;
+     
+}
+#answerstyle{
+           width:275px;
+           height:35px;
+}
